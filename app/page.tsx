@@ -5,14 +5,16 @@ export default function Home() {
     <main className="flex justify-center items-center h-screen w-screen p-8">
       <div>
         <Image
-        src="/logo-kiwamaru-academy.webp"
-        alt="Logo Kiwamaru Academy"
-        width={500}
-        height={100}
+          src="/logo-kiwamaru-academy.webp"
+          alt="Logo Kiwamaru Academy"
+          width={500}
+          height={200}
         />
 
-        <p className="mt-4">Kami Sedang Mempersiapkan Sesuatu yang Spesial.</p>
-        <strong>Kiwamaru Academy Segera Hadir!</strong>
+        <div className="text-center">
+          <p className="mt-4">Kami Sedang Mempersiapkan Sesuatu yang Spesial.</p>
+          <strong>Kiwamaru Academy Segera Hadir!</strong>
+        </div>
       </div>
     </main>
   );
