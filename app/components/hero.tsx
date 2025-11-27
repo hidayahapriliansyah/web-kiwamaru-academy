@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Hero() {
   return (
-    <section className="relative mt-16 md:mt-0 min-h-screen w-full flex items-center bg-gradient-to-b from-myred/95 via-red-500/90 to-red-600 text-white">
+    <section className="relative mt-16 md:mt-0 min-h-screen w-full flex items-center bg-gradient-to-b from-myred/50 via-red-500/60 to-red-600/90 text-white">
       <div className="absolute inset-0 -z-10 bg-blue-50 w-full h-full">
         <Image
           src={"/japan-view.jpg"}

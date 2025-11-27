@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="w-full py-20 bg-gradient-to-t from-red-50 to-white" id="about">
+    <section className="w-full py-20 bg-gradient-to-t from-red-600/80 to-white" id="about">
       <div className="max-w-6xl mx-auto px-6">
         {/* Title */}
         <h2 className="text-3xl md:text-4xl font-bold text-center text-myblack mb-10">
