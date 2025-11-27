@@ -16,7 +16,7 @@ export default function Hero() {
           </div>
 
           {/* Title */}
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight text-gray-900">
+          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight text-myblack">
                 Tingkatkan Karier dengan <br />
                 Bekerja di Jepang 🇯🇵
           </h1>
