@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function CTAClosing() {
   return (
     <section className="py-20 text-white text-center w-full bg-gradient-to-t from-red-50 to-white">
-        <div className="p-16 max-w-6xl mx-auto px-6 bg-gradient-to-tl from-myred to-red-500 rounded-3xl">
+        <div className="p-16 max-w-6xl mx-auto px-6 bg-gradient-to-tl from-myred to-red-500 md:rounded-3xl">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Siap Memulai Perjalanan Karier Anda ke Jepang?
             </h2>
@@ -14,19 +14,13 @@ export default function CTAClosing() {
             </p>
 
             <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a
-                href="/register"
-                className="px-8 py-4 bg-white text-red-600 font-semibold rounded-xl shadow-md hover:bg-gray-100 transition"
-            >
-                Daftar Sekarang
-            </a>
-
-            <Link
-                href="/contact"
-                className="px-8 py-4 border border-white text-white font-semibold rounded-xl hover:bg-white hover:text-red-600 transition"
-            >
-                Konsultasi Gratis
-            </Link>
+                <Link
+                    href="https://wa.me/6281214754492"
+                    className="px-8 py-4 bg-white text-red-600 font-semibold rounded-xl shadow-md hover:bg-gray-100 transition"
+                    target="_blank"
+                >
+                    Daftar Sekarang
+                </Link>
             </div>
         </div>
     </section>

@@ -4,9 +4,8 @@ import React from 'react'
 
 export default function Hero() {
   return (
-    <section className="h-screen w-full flex items-center bg-gradient-to-t from-red-50 to-white">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
-        
+    <section className="mt-16 md:mt-0 min-h-screen w-full flex items-center bg-gradient-to-t from-red-50 to-white">
+      <div className="max-w-7xl mx-auto p-6 grid md:grid-cols-2 gap-10 items-center">
         {/* LEFT CONTENT */}
         <div className="space-y-6">
           {/* Badge */}
@@ -26,7 +25,7 @@ export default function Hero() {
             Lembaga pelatihan kerja dan pengiriman tenaga kerja berizin resmi yang berorientasi pada pendidikan bahasa, budaya, serta etos kerja Jepang demi melahirkan talenta siap bekerja di Jepang.
           </p>
 
-        <div className="flex gap-4">
+        <div className="flex flex-col md:flex-row gap-4 text-center">
             <Link href="#program" className="inline-block bg-[#d32424] hover:bg-red-700 text-white font-medium px-6 py-3 rounded-full text-lg shadow-lg transition">
                 Lihat Program
             </Link>
@@ -44,7 +43,7 @@ export default function Hero() {
         //   transition={{ duration: 0.6 }}
           className="flex justify-center"
         >
-          <div className="rounded-3xl shadow-sm bg-white border border-myred p-4">
+          <div className="rounded-3xl shadow-sm bg-white md:border md:border-myred p-4">
             <Image
               src="/hero-image.png"
               alt="People working illustration"

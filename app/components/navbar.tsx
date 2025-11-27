@@ -13,7 +13,7 @@ export default function Navbar() {
     <nav className="w-full bg-white shadow-sm fixed top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
         {/* LOGO */}
-        <Link href="/" className="flex flex-row items-center gap-1 text-xl font-bold">
+        <Link href="/" className="flex flex-row items-center gap-2 text-xl font-bold">
           <Image
             src={"/logo-only.svg"}
             alt="Logo"

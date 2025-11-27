@@ -5,12 +5,11 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="w-full py-20 bg-gradient-to-t from-red-50 to-white">
+    <section className="w-full py-20 bg-gradient-to-t from-red-50 to-white" id="about">
       <div className="max-w-6xl mx-auto px-6">
-        
         {/* Title */}
         <h2 className="text-3xl md:text-4xl font-bold text-center text-myblack mb-10">
-          Tentang Kiwamaru Academy
+          Tentang LPK Kiwamaru Academy
         </h2>
 
         <div className="flex gap-12 items-center bg-white rounded-3xl shadow-sm border  border-myred p-8 md:p-12">
@@ -22,7 +21,7 @@ export default function About() {
                 <Building2 size={28} />
                 </div>
                 <p className="text-gray-700 leading-relaxed text-lg">
-                <strong>Kiwamaru Academy</strong> didirikan pada tahun <strong>2025</strong> di Kota Tasikmalaya 
+                <strong>LPK Kiwamaru Academy</strong> didirikan pada tahun <strong>2025</strong> di Kota Tasikmalaya 
                 sebagai lembaga pelatihan kerja yang berfokus pada persiapan tenaga kerja profesional Indonesia 
                 untuk pasar Jepang.
                 </p>
@@ -56,8 +55,8 @@ export default function About() {
             alt="Company Profile"
             width={"250"}
             height={"650"}
+            className="hidden md:block"
           />
-
         </div>
       </div>
     </section>

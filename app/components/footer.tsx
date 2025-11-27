@@ -1,5 +1,6 @@
 // components/Footer.tsx
 
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -9,12 +10,17 @@ export default function Footer() {
 
         {/* Brand */}
         <div>
-          <h3 className="text-xl font-bold text-white mb-3">
-            Kiwamaru Academy
-          </h3>
+          <Link href="/" className="flex flex-row items-center gap-2 mb-4 text-xl font-bold">
+            <Image
+              src={"/logo-only.svg"}
+              alt="Logo"
+              width={"30"}
+              height={"30"}
+            />
+          LPK Kiwamaru Academy
+        </Link>
           <p className="text-sm leading-relaxed">
-            Lembaga pelatihan kerja yang berfokus pada pendidikan bahasa Jepang, 
-            persiapan Tokutei Ginou, dan penyaluran tenaga kerja ke Jepang.
+            Pelatihan Bahasa Jepang, Magang, Tokutei Ginou dan Matching Job
           </p>
         </div>
 
@@ -23,7 +29,7 @@ export default function Footer() {
           <h4 className="text-lg font-semibold text-white mb-3">Navigasi</h4>
           <ul className="space-y-2 text-sm">
             <li><Link href="/" className="hover:text-white">Beranda</Link></li>
-            <li><Link href="/programs" className="hover:text-white">Program</Link></li>
+            <li><Link href="/#program" className="hover:text-white">Program</Link></li>
             <li><Link href="/about" className="hover:text-white">Tentang Kami</Link></li>
             <li><Link href="/contact" className="hover:text-white">Kontak</Link></li>
           </ul>
@@ -34,19 +40,20 @@ export default function Footer() {
           <h4 className="text-lg font-semibold text-white mb-3">Kontak</h4>
           <ul className="text-sm space-y-2">
             <li>
-              Jl. Winaya II, Perum Cikunten Indah,  
-              Kota Tasikmalaya, Jawa Barat
+              Perumahan Grand Preanger Residence BLOK A9 RT 04 RW 07
+              Kel. Tamanjaya, Kec. Tamansari, Kota Tasikmalaya, Jawa Barat
+              Kode Pos: 46191
             </li>
             <li>
               <span className="font-medium text-white">WhatsApp:</span>  
-              <a href="https://wa.me/628xxx" className="hover:text-white block">
-                08xx-xxxx-xxxx
+              <a href="https://wa.me/6281214754492" className="hover:text-white block" target="_blank">
+                +62812-1475-4492
               </a>
             </li>
             <li>
               <span className="font-medium text-white">Email:</span>  
               <a href="mailto:info@kiwamaruacademy.com" className="hover:text-white block">
-                info@kiwamaruacademy.com
+                office@kiwamaruacademy.id
               </a>
             </li>
           </ul>

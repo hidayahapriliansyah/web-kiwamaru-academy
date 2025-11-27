@@ -8,7 +8,7 @@ const interTight = Inter_Tight({
 });
 
 export const metadata: Metadata = {
-  title: "Kiwamaru Academy",
+  title: "LPK Kiwamaru Academy",
   description: "Lembaga Pelatihan Kerja Kiwamaru Academy",
 };
 

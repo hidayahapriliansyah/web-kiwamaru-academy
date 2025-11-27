@@ -36,7 +36,7 @@ export default function FaqAccordion() {
   };
 
   return (
-       <section className="w-full py-20 bg-white">
+       <section className="w-full py-20 bg-white" id="faq">
             <div className="max-w-5xl mx-auto px-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-center text-myblack mb-12">
                 Pertanyaan yang Sering Diajukan
@@ -45,7 +45,7 @@ export default function FaqAccordion() {
                     {faqData.map((item, index) => (
                         <div
                             key={index}
-                            className=" border border-myred rounded-xl shadow-sm bg-white"
+                            className="border border-myred rounded-xl shadow-sm bg-white"
                         >
                         {/* Header */}
                         <button
