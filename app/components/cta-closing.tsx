@@ -9,7 +9,7 @@ export default function CTAClosing() {
             </h2>
 
             <p className="text-lg md:text-xl mb-10 leading-relaxed">
-            Kiwamaru Academy siap mendampingi Anda mempersiapkan diri menjadi tenaga kerja profesional yang kompeten, 
+            LPK Kiwamaru Academy siap mendampingi Anda mempersiapkan diri menjadi tenaga kerja profesional yang kompeten, 
             fasih berbahasa Jepang, dan memenuhi standar perusahaan Jepang. Mulailah langkah pertama Anda menuju masa depan yang lebih baik.
             </p>
 

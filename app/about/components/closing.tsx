@@ -6,11 +6,11 @@ export default function ClosingSection() {
       <div className="p-16 max-w-6xl mx-auto px-6 bg-gradient-to-tl from-myred to-red-500 md:rounded-3xl">
         
         <h2 className="text-3xl md:text-4xl font-bold mb-6">
-          Siap Membangun Masa Depan Bersama Kiwamaru Academy?
+          Siap Membangun Masa Depan Bersama LPK Kiwamaru Academy?
         </h2>
 
         <p className="text-lg md:text-xl mb-10 leading-relaxed">
-          Bersama Kiwamaru Academy, kami berkomitmen mencetak tenaga kerja profesional 
+          Bersama LPK Kiwamaru Academy, kami berkomitmen mencetak tenaga kerja profesional 
           Indonesia yang kompeten, disiplin, fasih berbahasa Jepang, dan siap memenuhi 
           standar industri Jepang. Mari mulai perjalanan Anda menuju karier internasional.
         </p>
