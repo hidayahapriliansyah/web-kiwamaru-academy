@@ -58,12 +58,6 @@ export default function Navbar() {
               : `text-white hover:text-white/50`
             }
           `}>Tentang</Link>
-          <Link href="/#faq" className={`
-            ${scrolled 
-              ? `hover:text-myred/90`
-              : `text-white hover:text-white/50`
-            }
-          `}>FAQ</Link>
           <Link href="/#contact" className={`
             ${scrolled 
               ? `hover:text-myred/90`
@@ -92,7 +86,6 @@ export default function Navbar() {
           <Link href="/#" className="block py-2 border-b hover:text-myred" onClick={() => setOpenMenu(false)}>Beranda</Link>
           <Link href="/#program" className="block py-2 border-b hover:text-myred" onClick={() => setOpenMenu(false)}>Program</Link>
           <Link href="/#about" className="block py-2 border-b hover:text-myred" onClick={() => setOpenMenu(false)}>Tentang</Link>
-          <Link href="/#faq" className="block py-2 border-b hover:text-myred" onClick={() => setOpenMenu(false)}>FAQ</Link>
           <Link href="/contact" className="block py-2 hover:text-myred" onClick={() => setOpenMenu(false)}>Kontak</Link>
 
           <Link
