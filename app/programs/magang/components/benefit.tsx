@@ -35,7 +35,7 @@ export default function ProgramSection() {
   return (
     <div className="w-full">
       {/* ---------------- BENEFIT SECTION ---------------- */}
-      <section className="w-full py-16 bg-white">
+      <section className="w-full py-16 px-6 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-myblack mb-6">Benefit Program</h2>
 
