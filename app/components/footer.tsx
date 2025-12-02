@@ -2,11 +2,12 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { InstagramIcon, FacebookIcon, TwitterIcon } from "lucide-react";
 
 export default function Footer() {
   return (
     <footer className="bg-myblack text-gray-300 py-12">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
 
         {/* Brand */}
         <div>
@@ -14,11 +15,11 @@ export default function Footer() {
             <Image
               src={"/logo-only.svg"}
               alt="Logo"
-              width={"30"}
-              height={"30"}
+              width={30}
+              height={30}
             />
-          LPK Kiwamaru Academy
-        </Link>
+            LPK Kiwamaru Academy
+          </Link>
           <p className="text-sm leading-relaxed">
             Pelatihan Bahasa Jepang, Magang, Tokutei Ginou dan Matching Job
           </p>
@@ -45,19 +46,67 @@ export default function Footer() {
               Kode Pos: 46191
             </li>
             <li>
-              <span className="font-medium text-white">WhatsApp:</span>  
+              <span className="font-medium text-white">WhatsApp:</span>
               <a href="https://wa.me/6281214754492" className="hover:text-white block" target="_blank">
                 +62812-1475-4492
               </a>
             </li>
             <li>
-              <span className="font-medium text-white">Email:</span>  
-              <a href="mailto:info@kiwamaruacademy.com" className="hover:text-white block">
+              <span className="font-medium text-white">Email:</span>
+              <a href="mailto:office@kiwamaruacademy.id" className="hover:text-white block">
                 office@kiwamaruacademy.id
               </a>
             </li>
           </ul>
         </div>
+
+        {/* Social Media */}
+        <div>
+          <h4 className="text-lg font-semibold text-white mb-3">Sosial Media</h4>
+          <p className="text-sm mb-3">
+            Untuk mengikuti informasi seputar Kiwamaru Academy silakan follow akun sosial media kami:
+          </p>
+
+          <ul className="space-y-2 text-sm">
+            <li>
+              <a 
+                href="https://instagram.com/kiwamaruacademy.id" 
+                target="_blank" 
+                className="flex items-center gap-2 hover:text-white"
+              >
+                <InstagramIcon /> Instagram
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://facebook.com/kiwamaruacademy.id" 
+                target="_blank" 
+                className="flex items-center gap-2 hover:text-white"
+              >
+                <FacebookIcon /> Facebook
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://x.com/@kiwamaruacademy" 
+                target="_blank" 
+                className="flex items-center gap-2 hover:text-white"
+              >
+                <TwitterIcon /> X / Twitter
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://tiktok.com/@kiwamaruacademy.id" 
+                target="_blank" 
+                className="flex items-center gap-2 hover:text-white"
+              >
+                TikTok
+              </a>
+            </li>
+          </ul>
+        </div>
+
       </div>
 
       {/* Bottom */}
