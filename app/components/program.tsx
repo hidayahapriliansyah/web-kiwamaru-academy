@@ -12,45 +12,44 @@ export default function ProgramSection() {
 
         {/* 3 Columns */}
         <div className="grid md:grid-cols-3 gap-8">
-          {/* Card 1 */}
+          {/* Program 1 – Pendidikan Magang */}
           <div className="border border-myred rounded-2xl p-8 shadow-sm hover:shadow-md transition">
             <div className="flex items-center justify-center w-14 h-14 bg-red-100 text-red-600 rounded-full mb-5 mx-auto">
               <BookOpen size={28} />
             </div>
             <h3 className="text-xl font-semibold text-center mb-3">
-              Pendidikan Bahasa Jepang
+              Pendidikan Magang
             </h3>
             <p className="text-gray-600 text-center">
-              Pelatihan bahasa Jepang dari dasar hingga persiapan JLPT dan kebutuhan kerja di Jepang.
+              Program pembekalan bahasa, budaya, dan etika kerja Jepang untuk mempersiapkan peserta mengikuti program pemagangan resmi ke Jepang.
             </p>
           </div>
 
-          {/* Card 2 */}
+          {/* Program 2 – Pendidikan Tokutei Ginou */}
           <div className="border border-myred rounded-2xl p-8 shadow-sm hover:shadow-md transition">
             <div className="flex items-center justify-center w-14 h-14 bg-red-100 text-red-600 rounded-full mb-5 mx-auto">
               <BadgeCheck size={28} />
             </div>
             <h3 className="text-xl font-semibold text-center mb-3">
-              Pendidikan Tokutei Ginou & Pemagangan
+              Pendidikan Tokutei Ginou
             </h3>
             <p className="text-gray-600 text-center">
-              Persiapan ujian SSW, pembekalan etika kerja Jepang, serta program persiapan magang ke Jepang.
+              Persiapan materi ujian SSW, pelatihan bahasa Jepang dan persiapan ujian JFT/JLPT N4, dan pembekalan keterampilan sesuai standar industri Jepang untuk lulus ujian & bekerja secara resmi.
             </p>
           </div>
 
-          {/* Card 3 */}
+          {/* Program 3 – Matching Job */}
           <div className="border border-myred rounded-2xl p-8 shadow-sm hover:shadow-md transition">
             <div className="flex items-center justify-center w-14 h-14 bg-red-100 text-red-600 rounded-full mb-5 mx-auto">
               <Briefcase size={28} />
             </div>
             <h3 className="text-xl font-semibold text-center mb-3">
-              Matching Job (Penyaluran Kerja)
+              Matching Job
             </h3>
             <p className="text-gray-600 text-center">
-              Pendampingan dan penyaluran kerja ke Jepang sesuai minat, kemampuan, dan kebutuhan perusahaan.
+              Layanan pencocokan lowongan kerja Jepang (Tokutei Ginou & sektor lainnya) dengan kandidat yang sesuai, termasuk proses interview hingga placement.
             </p>
           </div>
-
         </div>
       </div>
     </section>
