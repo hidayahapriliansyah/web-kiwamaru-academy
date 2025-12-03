@@ -35,11 +35,11 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col md:flex-row gap-4 text-center">
-            <Link href="#program" className="inline-block bg-white text-red-700 hover:bg-red-100 font-medium px-6 py-3 rounded-full text-lg shadow-lg transition">
+            <Link href="/programs" className="inline-block bg-white text-red-700 hover:bg-red-100 font-medium px-6 py-3 rounded-full text-lg shadow-lg transition">
               Lihat Program
             </Link>
 
-            <Link href="#program" className="inline-block bg-transparent border bg-gradient-to-br from-myred to-red-600 border-white text-white hover:bg-white/10 font-medium px-6 py-3 rounded-full text-lg shadow-lg transition">
+            <Link href="/contact" className="inline-block bg-transparent border bg-gradient-to-br from-myred to-red-600 border-white text-white hover:bg-white/10 font-medium px-6 py-3 rounded-full text-lg shadow-lg transition">
               Hubungi Kami
             </Link>
           </div>
