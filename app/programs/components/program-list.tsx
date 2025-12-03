@@ -1,4 +1,4 @@
-// components/program/ProgramList.tsx
+// components/programs/ProgramList.tsx
 "use client";
 
 import Link from "next/link";
@@ -30,7 +30,7 @@ export default function ProgramList() {
 
             <div className="mt-auto text-center">
               <Link
-                href="/program/magang"
+                href="/programs/magang"
                 className="inline-block px-5 py-2 border border-myred text-myred rounded-full text-sm font-medium hover:bg-myred hover:text-white transition"
               >
                 Lihat Detail
@@ -49,12 +49,12 @@ export default function ProgramList() {
             </h3>
 
             <p className="text-gray-700 text-center mb-6">
-                Persiapan materi ujian SSW, pelatihan bahasa Jepang dan persiapan ujian JFT/JLPT N4, dan pembekalan keterampilan sesuai standar industri Jepang untuk lulus ujian & bekerja secara resmi.
+              Persiapan materi ujian SSW, pelatihan bahasa Jepang dan persiapan ujian JFT/JLPT N4, dan pembekalan keterampilan sesuai standar industri Jepang untuk lulus ujian & bekerja secara resmi.
             </p>
 
             <div className="mt-auto text-center">
               <Link
-                href="/program/ssw"
+                href="/programs/tg"
                 className="inline-block px-5 py-2 border border-myred text-myred rounded-full text-sm font-medium hover:bg-myred hover:text-white transition"
               >
                 Lihat Detail
@@ -78,7 +78,7 @@ export default function ProgramList() {
 
             <div className="mt-auto text-center">
               <Link
-                href="/program/matching-job"
+                href="/programs/matching-job"
                 className="inline-block px-5 py-2 border border-myred text-myred rounded-full text-sm font-medium hover:bg-myred hover:text-white transition"
               >
                 Lihat Detail
