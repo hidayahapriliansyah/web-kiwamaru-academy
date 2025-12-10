@@ -48,7 +48,7 @@ export default function MatchingJobPage() {
             <div className="flex justify-center mb-4">
               <CheckCircle2 className="text-myred" size={40} />
             </div>
-            <h3 className="text-xl font-bold text-center mb-2">60+ Peserta Lolos</h3>
+            <h3 className="text-xl font-bold text-center mb-2">50+ Kandidate TG Lolos</h3>
             <p className="text-gray-600 text-center">
               Telah berhasil meloloskan peserta dari Indonesia maupun yang sudah berada di Jepang.
             </p>
