@@ -8,6 +8,7 @@ export function PersyaratanLain() {
           <li>Pendidikan minimal SMA/SMK/Paket C sederajat</li>
           <li>Sehat jasmani & rohani</li>
           <li>Tidak buta warna, tidak memiliki penyakit menular, tidak cacat fisik berat</li>
+          <li>Tinggi badan minimal 160 cm (laki laki), 150 cm (perempuan)</li>
           <li>Tidak bertato dan tidak bertindik</li>
           <li>Belum pernah ke Jepang dengan program magang</li>
           <li>Memiliki motivasi dan disiplin tinggi</li>

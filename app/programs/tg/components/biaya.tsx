@@ -4,7 +4,7 @@ export function BiayaSection() {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold mb-6 text-myblack">Biaya Pendaftaran</h2>
 
-        <p className="text-lg font-semibold mb-4">Rp. 13.000.000 (Tiga Belas Juta Rupiah)</p>
+        <p className="text-lg font-semibold mb-4">Rp. 15.000.000 (Lima Belas Juta Rupiah)</p>
 
         <h3 className="text-xl font-semibold mb-3">Skema Pembayaran</h3>
         <div className="overflow-x-auto">
@@ -19,7 +19,7 @@ export function BiayaSection() {
             <tbody>
               <tr>
                 <td className="p-3 border">DP (Bulan 1)</td>
-                <td className="p-3 border">Rp 8.000.000</td>
+                <td className="p-3 border">Rp 10.000.000</td>
                 <td className="p-3 border">Saat pendaftaran / awal program</td>
               </tr>
               <tr>
@@ -34,7 +34,7 @@ export function BiayaSection() {
               </tr>
               <tr className="bg-green-50 font-semibold">
                 <td className="p-3 border">Total</td>
-                <td className="p-3 border">Rp 13.000.000</td>
+                <td className="p-3 border">Rp 15.000.000</td>
                 <td className="p-3 border">Lunas ✔</td>
               </tr>
             </tbody>
